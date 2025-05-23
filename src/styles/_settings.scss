@@ -16,6 +16,14 @@ $color-3: rgb(100, 100, 100);
 $black: #060d2c;
 $white: rgb(238, 238, 238);
 
+// mixins
+@mixin centerChild {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
 * {
   margin: 0;
   padding: 0;
@@ -24,6 +32,7 @@ $white: rgb(238, 238, 238);
 }
 
 body {
+  min-height: 100vh;
   background: $color-2;
   color: $white;
 }
@@ -35,3 +44,5 @@ li {
   flex-wrap: wrap;
   justify-content: center;
 }
+
+

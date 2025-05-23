@@ -1,0 +1,14 @@
+@use "../settings" as *;
+
+.movies {
+  ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 0.5rem;
+    padding: 1rem;
+    width: 100%;
+    // max-width: 1400px;
+    margin: 0 auto;
+  }
+}

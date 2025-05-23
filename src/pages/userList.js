@@ -1,12 +1,12 @@
 import React from "react";
 import Navigation from "../components/Navigation";
-import Tittle from "../components/TittleH1";
+import TittleHome from "../components/TittleHome";
 
 const userList = () => {
   return (
     <div>
       <Navigation />
-      <Tittle />
+      <TittleHome />
     </div>
   );
 };

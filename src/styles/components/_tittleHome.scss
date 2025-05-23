@@ -1,4 +1,6 @@
-.tittleH1 {
+@use "../settings" as *;
+
+.tittleHome {
   h1 {
     font-size: 3.3rem;
     text-shadow: 2px 3px 0px $color-1;

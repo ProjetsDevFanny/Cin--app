@@ -1,5 +1,7 @@
+@use "../settings" as *;
+
 .card {
-  flex: 1 0 25%;
+  flex: 1 0 20%;
   min-width: 260px;
   max-width: 280px;
   height: 620px;
@@ -9,6 +11,7 @@
   padding: 26px 15px 30px;
   position: relative;
   overflow: hidden;
+ 
 
   &::after {
     content: "";

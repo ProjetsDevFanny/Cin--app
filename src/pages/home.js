@@ -1,14 +1,16 @@
 import React from "react";
+import Movies from "../components/Movies";
 import Navigation from "../components/Navigation";
-import Tittle from "../components/TittleH1";
+import TittleHome from "../components/TittleHome";
 import Form from "../components/Form";
 
 const home = () => {
   return (
     <div>
       <Navigation />
-      <Tittle />
+      <TittleHome />
       <Form />
+      <Movies />
     </div>
   );
 };
